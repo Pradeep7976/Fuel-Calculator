@@ -1,0 +1,86 @@
+.App {
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  min-height: 1000px;
+  font-family: "helvetica neue";
+  height: 100%;
+}
+
+.inp {
+  height: 2.6em;
+  text-align: center;
+  width: 20em;
+  color: black;
+}
+.inp1 {
+  margin-top: 6rem;
+}
+.inp2 {
+  margin-top: 0rem;
+}
+.navi {
+  /* background: #1bcfc0; */
+  color: dodgerblue;
+  text-align: center;
+  width: 100%;
+}
+.card {
+  margin-top: 7rem;
+  position: absolute;
+  height: fit-content;
+  width: 20em;
+}
+.card-header {
+  width: 18.9rem;
+  text-align: center;
+  padding: 0%;
+  margin-top: 0em;
+}
+.btn {
+  /* background: #a557c9; */
+  padding: 0%;
+  margin-top: 0rem;
+  width: 18.9rem;
+  height: 3rem;
+  text-align: center;
+}
+.par {
+  padding-left: 38rem;
+  margin-top: 0rem;
+}
+.fimg {
+  height: 2.7rem;
+  padding-right: 1rem;
+}
+.fon {
+  font-size: 1.9rem;
+}
+.headi {
+  margin-top: 3.85em;
+  margin-left: 37.6em;
+  position: absolute;
+  width: 20em;
+}
+/* 2nd input */
+.car {
+  width: 50em;
+}
+
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+h3 {
+  padding-top: 2rem;
+}
