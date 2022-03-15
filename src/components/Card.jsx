@@ -6,7 +6,14 @@ function Card() {
     console.log("dist is" + dist);
     console.log("Kmpl is" + kmpl);
     console.log(dist / kmpl);
-    Setfuel((dist / kmpl).toFixed(2));
+    if (dist == 0 || kmpl == 0) {
+      setdist(0);
+      setkmpl(0);
+      alert("Please enter the valid details");
+    }
+    if (dist != 0 && kmpl != 0) {
+      Setfuel((dist / kmpl).toFixed(2));
+    }
     // Setfuel(Fuel);
   }
   const [Fuel, Setfuel] = useState(0);
@@ -38,7 +45,7 @@ function Card() {
           <button
             type="button"
             style={{ color: "black" }}
-            class="btn"
+            class="btn  bg-transparent"
             onClick={clicki}
           >
             Calculate

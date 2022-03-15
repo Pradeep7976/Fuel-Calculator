@@ -43,7 +43,15 @@
   width: 18.9rem;
   height: 3rem;
   text-align: center;
+  box-shadow: none;
 }
+
+.btn:focus {
+  /* the !important is really the key here, it overrides everything else */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .par {
   padding-left: 38rem;
   margin-top: 0rem;
